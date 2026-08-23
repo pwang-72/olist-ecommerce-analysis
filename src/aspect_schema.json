@@ -1,0 +1,21 @@
+{
+  "type": "object",
+  "properties": {
+    "spans": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "text": {"type": "string"},
+          "aspect": {"type": "string", "enum": ["overall_satisfaction", "product_quality", "product_condition_damage", "product_completeness", "product_color_accuracy", "product_description_accuracy",  "product_appearance", "wrong_item_shipped", "packaging", "delivery_timing", "delivery_non_receipt", "price", "seller_contact", "seller_service", "others"]},
+          "attitude": {"type": "string", "enum": ["positive", "negative", "neutral"]},
+          "discourse_role": {"type": "string", "enum": ["nucleus", "satellite", "none"]},
+          "relation": {"type": "string", "enum": ["concession_exclusion", "concession_tradeoff", "none"]}
+        },
+        "required": ["text", "aspect", "attitude", "discourse_role", "relation"],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": ["spans"]
+}
