@@ -18,7 +18,7 @@ The final analysis combines these prepared datasets to examine marketplace struc
 
 The primary data source is the [Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/olistbr/brazilian-ecommerce), which contains approximately 100,000 orders placed between 2016 and 2018 across multiple marketplaces in Brazil. 
 
-![](https://cdn.jsdelivr.net/gh/pwang-72/PicGo/20260929204454464.png)
+![](figures/s)
 
 The dataset contains the following Olist tables:
 
@@ -71,7 +71,7 @@ The project focuses on the following questions:
 
 The analysis is organized as a five-notebook workflow.
 
-<img src="https://cdn.jsdelivr.net/gh/pwang-72/PicGo/20260929222643742.png" style="zoom: 33%;" />
+<img src="figures/notebook_organization.png" style="zoom:33%;" />
 
 ### 1. Data understanding
 
@@ -133,15 +133,15 @@ The analysis preserves the appropriate grain for each question, validates joins,
 
 **Customer demand by state**
 
-![Customer demand by state](https://cdn.jsdelivr.net/gh/pwang-72/PicGo/20260929215101062.png)
+![Customer demand by state](figures/customer_demand_by_state.png)
 
 **Category rankings by units and merchandise value**
 
-![Category rankings by units and merchandise value](C:\Users\19148\OneDrive\Desktop\pydata-book\olist-ecommerce-analysis\figures\category_volume_vs_value.png)
+![Category rankings by units and merchandise value](figures\category_volume_vs_value.png)
 
 **Monthly merchandise value and value per unit**
 
-![Monthly merchandise value and value per unit](C:\Users\19148\OneDrive\Desktop\pydata-book\olist-ecommerce-analysis\figures\monthly_merchandise_value_and_value_per_unit.png)
+![Monthly merchandise value and value per unit](figures\monthly_merchandise_value_and_value_per_unit.png)
 
 ---
 
@@ -159,7 +159,7 @@ The analysis preserves the appropriate grain for each question, validates joins,
 
 **Delivery scores by lateness and review timing**
 
-![Delivery scores by lateness and review timing](C:\Users\19148\OneDrive\Desktop\pydata-book\olist-ecommerce-analysis\figures\delivery_score_by_lateness_and_review_timing.png)
+![Delivery scores by lateness and review timing](figures\delivery_score_by_lateness_and_review_timing.png)
 
 **Constructed scores by original customer rating**
 
@@ -179,11 +179,11 @@ The analysis preserves the appropriate grain for each question, validates joins,
 
 **Product experience by completed category merchandise value**
 
-![Product experience by completed category merchandise value](https://cdn.jsdelivr.net/gh/pwang-72/PicGo/20260929215103377.png)
+![Product experience by completed category merchandise value](figures/category_value_vs_product_experience.png)
 
 **Seller experience by completed-order volume**
 
-![Seller experience by completed-order volume](C:\Users\19148\OneDrive\Desktop\pydata-book\olist-ecommerce-analysis\figures\seller_volume_vs_seller_experience.png)
+![Seller experience by completed-order volume](figures\seller_volume_vs_seller_experience.png)
 
 ## Repository Structure
 
