@@ -71,7 +71,7 @@ The project focuses on the following questions:
 
 The analysis is organized as a five-notebook workflow.
 
-<img src="figures/notebook_organization.png" style="zoom:33%;" />
+<img src="figures/notebook_organization.png" style="zoom:23%;" />
 
 ### 1. Data understanding
 
