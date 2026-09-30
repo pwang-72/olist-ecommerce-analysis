@@ -35,7 +35,7 @@ The city labels provided in the Olist customer, seller, and geolocation tables c
 
 The main references are:
 
-- [IBGE Territorial Division of Brazil 2018 (DTB)]((https://geoftp.ibge.gov.br/organizacao_do_territorio/estrutura_territorial/divisao_territorial/2018/)), which provides official municipality and district names and codes; 
+- [IBGE Territorial Division of Brazil 2018 (DTB)](https://geoftp.ibge.gov.br/organizacao_do_territorio/estrutura_territorial/divisao_territorial/2018/), which provides official municipality and district names and codes; 
 - [IBGE Municipal Toponymic Changes](https://www.ibge.gov.br/geociencias/organizacao-do-territorio/estrutura-territorial/27336-alteracoes-toponimicas-municipais.html), used to identify historical municipality names and official name changes.
 
 These references are used only to standardize and resolve geographic labels rather than to replace the original marketplace records.
@@ -71,7 +71,7 @@ The project focuses on the following questions:
 
 The analysis is organized as a five-notebook workflow.
 
-<img src="figures/notebook_organization.png" style="zoom:23%;" />
+<img src="figures/notebook_organization.png" style="zoom:13%;" />
 
 ### 1. Data understanding
 
