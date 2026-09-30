@@ -18,7 +18,7 @@ The final analysis combines these prepared datasets to examine marketplace struc
 
 The primary data source is the [Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/olistbr/brazilian-ecommerce), which contains approximately 100,000 orders placed between 2016 and 2018 across multiple marketplaces in Brazil. 
 
-![](figures/s)
+![](figures/schema.png)
 
 The dataset contains the following Olist tables:
 
@@ -137,11 +137,11 @@ The analysis preserves the appropriate grain for each question, validates joins,
 
 **Category rankings by units and merchandise value**
 
-![Category rankings by units and merchandise value](figures\category_volume_vs_value.png)
+![Category rankings by units and merchandise value](figures/category_volume_vs_value.png)
 
 **Monthly merchandise value and value per unit**
 
-![Monthly merchandise value and value per unit](figures\monthly_merchandise_value_and_value_per_unit.png)
+![Monthly merchandise value and value per unit](figures/monthly_merchandise_value_and_value_per_unit.png)
 
 ---
 
@@ -159,11 +159,11 @@ The analysis preserves the appropriate grain for each question, validates joins,
 
 **Delivery scores by lateness and review timing**
 
-![Delivery scores by lateness and review timing](figures\delivery_score_by_lateness_and_review_timing.png)
+![Delivery scores by lateness and review timing](figures/delivery_score_by_lateness_and_review_timing.png)
 
 **Constructed scores by original customer rating**
 
-![Constructed scores by original customer rating](C:\Users\19148\OneDrive\Desktop\pydata-book\olist-ecommerce-analysis\figures\dimension_score_vs_original_rating.png)
+![Constructed scores by original customer rating](figures/dimension_score_vs_original_rating.png)
 
 ---
 
@@ -183,7 +183,7 @@ The analysis preserves the appropriate grain for each question, validates joins,
 
 **Seller experience by completed-order volume**
 
-![Seller experience by completed-order volume](figures\seller_volume_vs_seller_experience.png)
+![Seller experience by completed-order volume](figures/seller_volume_vs_seller_experience.png)
 
 ## Repository Structure
 
