@@ -67,19 +67,19 @@ The project focuses on the following questions:
 5. How do the constructed experience scores relate to the original overall customer rating?
 6. Do commercially larger product categories or sellers systematically receive stronger customer-experience evaluations?
 
-## Methodology (==notebook/analysis organization==)
+## Analysis Workflow
 
-The analysis is organized as a five-notebook workflow.
+The project is organized as a five-notebook workflow. After the initial data-understanding stage, data cleaning and review-text processing proceed in parallel before their outputs are integrated in the final analysis.
 
 <img src="figures/notebook_organization.png" style="zoom:13%;" />
 
-### 1. Data understanding
+### 1. Data Understanding
 
 [`01_data_understanding.ipynb`](notebooks/01_data_understanding.ipynb)
 
 The first notebook audits table granularity, identifiers, one-to-many relationships, order lifecycle fields, geographic inconsistencies, customer identifiers, review duplication, and missing product-category information. The purpose is to establish how the raw tables should be interpreted before they are combined for analysis.
 
-### 2. Data cleaning and validation
+### 2. Data Cleaning and Validation
 
 [`02_data_cleaning.ipynb`](notebooks/02_data_cleaning.ipynb)
 
@@ -93,13 +93,13 @@ The second notebook:
 
 Ambiguous review IDs associated with multiple orders are excluded from entity attribution rather than assigned arbitrarily. After this treatment, 96.1% of retained reviews are attributable to a specific Product target and 98.0% to Seller and Delivery targets.
 
-### 3. Review translation
+### 3. Review Translation
 
 [`03_review_translation.ipynb`](notebooks/03_review_translation.ipynb)
 
 Portuguese review comments are translated into English with a local neural machine translation workflow. Translation is performed once per unique review text, saved incrementally, and then mapped back to the original review records. Non-informative comments and remaining untranslated records are handled explicitly.
 
-### 4. Review-based rating construction
+### 4. Review-Based Rating Construction
 
 [`04_rating_construction.ipynb`](notebooks/04_rating_construction.ipynb)
 
